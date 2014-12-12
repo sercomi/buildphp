@@ -1,0 +1,14 @@
+#! /usr/bin/env php
+
+<?php
+
+use MyCommand\NewProject;
+use Symfony\Component\Console\Application;
+
+require "vendor/autoload.php";
+
+$app = new Application('New project', '1.0');
+
+$app->add(new NewProject());
+
+$app->run();

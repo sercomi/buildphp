@@ -1,0 +1,12 @@
+{
+    "name": "sercomi/buildphp",
+    "description": "Generate scaffold for a PHP app with PHPSpec setup",
+    "require": {
+        "symfony/console": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyCommand\\": "src"
+        }
+    }
+}
