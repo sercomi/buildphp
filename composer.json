@@ -1,6 +1,14 @@
 {
     "name": "sercomi/buildphp",
     "description": "Generate scaffold for a PHP app with PHPSpec setup",
+    "keywords": ["php", "command"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergi Comas",
+            "email": "sercomi@gmail.com"
+        }
+    ],
     "require": {
         "symfony/console": "~2.0"
     },
@@ -8,5 +16,8 @@
         "psr-4": {
             "MyCommand\\": "src"
         }
-    }
+    },
+    "bin": [
+        "buildphp"
+    ]
 }
